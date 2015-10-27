@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/themes/default/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+        <link href="css/img.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div id="home" data-role="page" data-title="LFC" text-align="center">
+            <div data-role="panel" id="mypanel">
+                <!-- panel content goes here -->
+            </div><!-- /panel -->
+            <div data-role="header" data-add-back-btn="true">
+                <h1>WelCome</h1>
+                <br>
+            </div>
+            <div data-role="content" align="center" class="MainContent">
+                <div data-role="controlgroup" data-type="horizontal">
+                    <!--<a data-role="button" href="#JK" data-transition="flip" >Jürgen Norbert Klopp</a>
+                    <a data-role="button" href="#SG" data-transition="flip">Steven Gerrard</a>-->
+                </div>
+                <a data-role="button" href="#mainMenu" data-transition="flip"> <img src="img/logo2.jpg" alt="" /><br>Menu</a>
+                <br>
+            </div>
+
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar" data-grid="c">
+                    <ul>
+                        <li><a href="index.html">Page 1</a></li>
+                        <li><a href="index2.html">Page 2</a></li>
+                        <li><a href="index3.html">Page 3</a></li>
+                        <li><a href="index4.html" data-rel="external">Page 4</a></li>
+                    </ul>
+                </div>
+                <h1>&copy;  BAAC 2558</h1>
+            </div>
+        </div>
+        <div id="mainMenu" data-role="dialog">
+            <div data-role="navbar" data-grid="b" class="ui-body ui-body-a ui-corner-all">
+                <ul>
+                    <li><a data-role="button" href="#JK" data-transition="flip" > <img class="imgMenu" src="img/jk2.jpg" alt="" /><br>Jürgen Klopp</a></li>
+                    <li><a data-role="button" href="#SG" data-transition="flip"><img class="imgMenu" src="img/sg2.jpg" alt="" /><br>Steven Gerrard</a></li>
+                    <li><a data-role="button" href="#PC" data-transition="flip"><img class="imgMenu" src="img/pc2.jpg" alt="" /><br>Philippe Coutinho</a></li>
+                </ul>
+            </div>
+            <a data-role="button" href="#home" data-icon="home" data-enchanced="true">Home</a>
+        </div>
+
+        <div id="JK" data-role="dialog">
+            <div data-role="header" text-align="center"><h1>Jürgen Klopp</h1></div>
+            <div data-role="content" align="center">
+                <img src="img/jk.jpg" alt="" class="ui-body ui-body-a ui-corner-all"/>
+                <br>
+                <h4>
+                    Jürgen Norbert Klopp (German pronunciation: [ˈjʏɐ̯ɡən ˈklɔp]; born 16 June 1967) is a German professional football manager and former player who is the current manager of Premier League club Liverpool.
+
+                    Klopp spent his entire 12-year playing career at Mainz 05, before going on to become their longest-serving manager from 2001 to 2008, during which time they achieved promotion to the Bundesliga. In 2008, Klopp joined Borussia Dortmund, leading them to back-to-back Bundesliga wins in 2011 and 2012, as well as the DFB-Pokal in 2012, the DFL-Supercup in 2008, 2013 and 2014, and their second appearance in a Champions League final in 2013. Klopp won the German Football Manager of the Year in 2011 and 2012, before leaving Dortmund in 2015 having also become their longest-serving manager. He became manager of 
+                </h4>
+            </div>
+            <div data-role="footer" data-position="fixed" align="center">
+                <a data-role="button" href="#home" data-icon="home" >Home</a>
+            </div>
+        </div>
+        <!-- ----------------------------------------------------------------------------------------------------------------- -->
+        <div id="SG" data-role="dialog">
+            <div data-role="header" text-align="center"><h1>Steven Gerrard</h1></div>
+            <div data-role="content" align="center">
+                <img src="img/sg.jpg" alt="" class="ui-body ui-body-a ui-corner-all"/>
+                <br>
+                <h4>
+                    Steven George Gerrard, MBE (born 30 May 1980) is an English professional footballer who plays for Major League Soccer club LA Galaxy. He spent the majority of his career playing for Premier League club Liverpool, with most of that time as their captain. He has played much of his career as a central midfielder, but has also been used as a second striker, holding midfielder, attacking midfielder, right back and right winger
+                </h4>
+            </div>
+            <div data-role="footer" data-position="fixed" align="center">
+                <a data-role="button" href="#home" data-icon="home" data-enchanced="true">Home</a>
+            </div>
+        </div>
+
+        <!-- ----------------------------------------------------------------------------------------------------------------- -->
+        <div id="PC" data-role="dialog">
+            <div data-role="header" text-align="center"><h1>Philippe Coutinho</h1></div>
+            <div data-role="content" align="center">
+                <img src="img/pc.jpg" alt="" class="ui-body ui-body-a ui-corner-all"/>
+                <br>
+                <h4>
+                    This name uses Portuguese naming customs. The first or maternal family name is Coutinho and the second or paternal family name is Correia.Philippe Coutinho Correia (Brazilian Portuguese: [fiˈlipi kowˈtʃĩj̃u]; born 12 June 1992), known as Philippe Coutinho, or simply Coutinho, is a Brazilian professional footballer who plays for English club Liverpool and the Brazil national team as an attacking midfielder or winger.
+
+                    He began his club career at Vasco da Gama in Brazil before moving to Inter Milan in Italy, who loaned him to Spanish side Espanyol in 2012. In January 2013, he was signed by English Premier League club Liverpool for £8.5 million. His vision, passing, dribbling and long-range strikes have earned him the nickname Little Magician by Liverpool fans and teammates.[3] Brazilian great Pelé tipped Coutinho for a "great future",[4] after he was named in the 2015 PFA Team of the Year.[5]
+
+                    At the age of 18, Coutinho made his senior international debut for Brazil in 2010. He represented the nation at the 2015 Copa América.
+                </h4>
+            </div>
+            <div data-role="footer" data-position="fixed" align="center">
+                <a data-role="button" href="#home" data-icon="home" data-enchanced="true">Home</a>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(document).on("pageinit", "#home", function () {
+                //alert("aaa");
+            });
+            $(document).on("pageshow", "#home", function () {
+                //alert("bbbb");
+            });
+
+            $(document).on("pageinit", "#home4", function () {
+                //alert("aaa4");
+            });
+            $(document).on("pageshow", "#home4", function () {
+                //alert("bbbb4");
+            });
+
+            var Sservice_url = "http://172.18.27.23/PhpWebService/showlist.php";
+            var scores;
+            $("#home4").on("pageinit", function () {
+                $("#lv1 li").remove();
+            });
+
+
+            $(document).on("pagebeforeshow", "#home4", function () {
+                $.getJSON(Sservice_url, function (data) {
+                    $("#lv1 li").remove();
+                    scores = data.items;
+                    $.each(scores, function (index, score) {
+                        $("#lv1").append("<li><a>" + score.Stadium + "</a></li>");
+                    });
+                    $("#lv1").listview("refresh");
+                });
+            });
+
+        </script>
+    </body>
+</html>
